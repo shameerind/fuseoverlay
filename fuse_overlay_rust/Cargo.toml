@@ -1,0 +1,13 @@
+[package]
+name = "git_fuse_overlay"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fuser = "0.15.1"
+libc = "0.2"
+git2 = "0.19"
+dashmap = "6.1"
+anyhow = "1.0"
+ctrlc = "3.4"
+
